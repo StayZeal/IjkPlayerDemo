@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#80000000"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp">
+
+    <CheckBox
+        android:id="@+id/player_controller_player_btn"
+        android:layout_width="21dp"
+        android:layout_height="21dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/player_play_samll_btn"
+        android:button="@null" />
+
+    <TextView
+        android:id="@+id/player_cur_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00:00"
+        android:textColor="#f7f7f7"
+        android:textSize="19sp" />
+
+
+    <SeekBar
+        android:id="@+id/player_seek_bar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="1"
+        android:indeterminate="false"
+        android:maxHeight="2dp"
+        android:minHeight="2dp"
+        android:progressDrawable="@drawable/seek_bar_progress"
+        android:thumb="@drawable/thumb"
+        android:thumbOffset="0dp" />
+
+    <TextView
+        android:id="@+id/player_end_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00:00"
+        android:textColor="#f7f7f7"
+        android:textSize="19sp" />
+
+    <ImageView
+        android:id="@+id/player_full_screen"
+        android:layout_width="21dp"
+        android:layout_height="21dp"
+        android:layout_marginLeft="16dp"
+        android:src="@drawable/player_full_screen" />
+
+</LinearLayout>

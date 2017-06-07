@@ -1,0 +1,44 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="title_text">49px</dimen>
+    <dimen name="edit_text">43px</dimen>
+    <dimen name="vip_text">36px</dimen>
+    <dimen name="login_edit_text">49px</dimen>
+    <dimen name="text_size_my_info">43px</dimen>
+    <dimen name="text_size_down_item_title">40px</dimen>
+    <dimen name="text_size_40">40px</dimen>
+    <dimen name="text_size_30">30px</dimen>
+    <dimen name="text_size_custom_service_chat">40px</dimen>
+
+    <!-- 顶部按钮栏高度 -->
+    <dimen name="pickerview_topbar_height">44dp</dimen>
+    <!-- 顶部按钮paddingLeft -->
+    <dimen name="pickerview_topbar_paddingleft">10dp</dimen>
+    <!-- 顶部按钮paddingRight -->
+    <dimen name="pickerview_topbar_paddingright">30dp</dimen>
+    <!-- 顶部按钮文字大小 -->
+    <dimen name="pickerview_topbar_btn_textsize">20sp</dimen>
+    <dimen name="pickerview_topbar_title_textsize">21sp</dimen>
+    <!-- 选项文字大小 需要配合 bools.xml 的 pickerview_customTextSize 为 true 才有效果-->
+    <dimen name="pickerview_textsize">15sp</dimen>
+
+    <dimen name="left_margin">35px</dimen>
+    <dimen name="right_margin">35px</dimen>
+
+
+    <dimen name="mvp_rg_padding_bottom">9dp</dimen>
+    <dimen name="mvp_rg_padding_top">11dp</dimen>
+    <dimen name="mvp_rb_textsize">14sp</dimen>
+    <dimen name="mvp_fl_height">6px</dimen>
+
+    <dimen name="brief_cb_width">31dp</dimen>
+    <dimen name="brief_cb_height">31dp</dimen>
+
+    <dimen name="name_bar_height">102px</dimen>
+
+    <dimen name="fg_rg_width">11dp</dimen>
+    <dimen name="fg_rg_marginLeft">5dp</dimen>
+</resources>

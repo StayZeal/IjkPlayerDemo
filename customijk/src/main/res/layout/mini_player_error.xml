@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mini_player_error_RL"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/mini_player_back"
+        android:layout_width="95px"
+        android:layout_height="97px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:paddingLeft="35px"
+        android:paddingTop="37px"
+        android:src="@drawable/mini_player_empty_back" />
+
+    <ImageView
+        android:id="@+id/mini_player_error"
+        android:layout_width="400px"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/mini_player_error" />
+</RelativeLayout>
